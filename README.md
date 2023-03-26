@@ -3,3 +3,9 @@
 Expected to have torch, torchvision, kaggle, numpy, matplotlib
 
 To select dataset and regularization type one can change two last lines in conf.yml
+Also you can change the mode: 1 - for training, 2 - for metrics
+
+To run code you can run 
+~~~
+!python3 main.py
+~~~

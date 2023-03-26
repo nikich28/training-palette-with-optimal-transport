@@ -1,10 +1,7 @@
-!pip install wandb -q
-!pip install POT -q
-
 from src.config import load_config
 from src.train import train
 from src.metrics import metrics
-import argparse
+
 
 def main():
     config = load_config("conf.yml")
@@ -17,4 +14,6 @@ def main():
         metrics(config)
 
 if __name__ == "__main__":
+    !pip install wandb -q
+    !pip install POT -q
     main()

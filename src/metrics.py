@@ -39,7 +39,7 @@ def metrics(config):
 
     #get checkpoints using kaggle, for example
 
-    !kaggle kernels output kaggle3223/notebook04a4ac77c4 -p ./
+    !kaggle kernels output kaggle3223/notebook04a4ac77c4-metrics -p ./
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     diffusion = GaussianDiffusion(config.IMAGE_SIZE,config.CHANNEL_X,config.CHANNEL_Y,config.TIMESTEPS)

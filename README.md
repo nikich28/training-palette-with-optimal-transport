@@ -1,0 +1,1 @@
+# training adopted [palette repo](https://github.com/LouisRouss/Diffusion-Based-Model-for-Colorization) using discrete optimal transport from [POT](https://pythonot.github.io)
